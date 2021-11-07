@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'first-app';
-  images = [944, 1012, 984].map((n) => `https://picsum.photos/id/${n}/1600/500`);
-
+  images = [944, 1012, 984].map((n) => `https://picsum.photos/id/${n}/1600/883`);
+  toggleNavbar = false;
 }
